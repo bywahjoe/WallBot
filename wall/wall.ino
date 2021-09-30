@@ -1,11 +1,8 @@
-#include <NewPing.h>
-
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <SharpIR.h>
 #include <Adafruit_MLX90614.h>
 #include "pinku.h"
-
 
 #define tgreen digitalRead(tombolHijau)
 #define tred digitalRead(tombolMerah)
